@@ -49,18 +49,3 @@
 .col-12{
     width: calc(100%/12*12);
 }
-.item-1{
-    width: 100%;
-    height: 200px;
-    background-color: blue;
-}
-.item-2{
-    width: 100%;
-    height: 200px;
-    background-color: red;
-}
-.item-3{
-    width: 100%;
-    height: 200px;
-    background-color: green;
-}
