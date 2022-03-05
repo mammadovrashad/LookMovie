@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500;600;900&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+.information{
+    width: 100%;
+    height: 510px;
+}
+.format h1{
+    height: 93px;
+    font-style: normal;
+    font-size: 55px;
+    Line-height :56px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+.format{
+    width: 100%;
+    height: 182px;
+}
+.info-head{
+    color: #1E4681;
+    font-size: 25px;
+    line-height: 32px;
+    font-style: normal;
+
+}
+.info{
+    font-size: 18px;
+    line-height: 24px;
+}
+.information p{
+    line-height: 23px;
+    font-size: 18px;
+}
+@media screen and (max-width:1200px){
+    .information{
+        height: 403px;
+    }
+    .format{
+        height: 143px;
+    }
+    .format h1{
+        height: 74px;
+        font-size: 43px;
+        line-height: 44px;
+    }
+    .info-head{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .information p{
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
+@media screen and (max-width:992px)  {
+    .information{
+        height: 296px;
+    }
+    .format{
+        height: 105px;
+    }
+    .format h1{
+        height: 54px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .info-head{
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .information p{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    
+}
+@media screen and (max-width:768px)  {
+    .information{
+        height: 349px;
+    }
+    .format{
+        height: 67px;
+    }
+    .format h1{
+        height: 34px;
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .info-head{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .information p{
+        font-size: 10px;
+        line-height: 13px;
+        margin-bottom: 30px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    
+}
