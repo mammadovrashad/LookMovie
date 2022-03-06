@@ -37,9 +37,9 @@
     width: 100%;
     height: 93px;
 }
-learn-head{
+.learn-head{
     width: 100%;
-    height: 76px;
+    height: 99px;
 }
 li p{
     font-size: 24px;
@@ -69,6 +69,21 @@ li p{
         font-size: 15px;
         line-height: 19px;
     }
+    .learn{
+        height: 534px;
+    }
+   .learn-head{
+       height: 82px;
+   }
+   .learn-head h1{ 
+      height: 74px;
+      font-size: 43px;
+      line-height: 44px;
+   }
+   li p{
+       font-size: 18px;
+       line-height: 28px;
+   }
 }
 @media screen and (max-width:992px)  {
     .information{
@@ -90,9 +105,24 @@ li p{
         font-size: 11px;
         line-height: 14px;
     }
+    .learn{
+        height: 426px;
+    }
+   .learn-head{
+       height: 66px;
+   }
+   .learn-head h1{ 
+      height: 54px;
+      font-size: 32px;
+      line-height: 32px;
+   }
+   li p{
+       font-size: 14px;
+       line-height: 21px;
+   }
     
 }
-@media screen and (max-width:768px)  {
+@media screen and (max-width:767px)  {
     .information{
         height: 349px;
     }
@@ -116,5 +146,63 @@ li p{
     .row{
         flex-direction: column;
     }
+    .learn{
+        height: 311px;
+    }
+   .learn-head{
+       height: 53px;
+   }
+   .learn-head h1{ 
+      height: 43px;
+      font-size: 26px;
+      line-height: 26px;
+   }
+   li p{
+       font-size: 12px;
+       line-height: 18px;
+   }
     
 }
+@media screen and (max-width: 586px){
+    .information{
+        height: 402px;
+    }
+    .format{
+        height: 48px;
+    }
+    .format h1{
+        height: 14px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .info-head{
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .information p{
+        font-size: 9px;
+        line-height: 12px;
+        margin-bottom: 30px;
+       
+    }
+    .row{
+        flex-direction: column;
+    }
+    .learn{
+        height: 254px;
+    }
+   .learn-head{
+       height: 40px;
+   }
+   .learn-head h1{ 
+      height: 32px;
+      font-size: 20px;
+      line-height: 20px;
+   }
+   li p{
+       font-size: 10px;
+       line-height: 15px;
+   }
+    
+}
+    
