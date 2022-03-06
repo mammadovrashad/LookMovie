@@ -15,7 +15,7 @@
 .feedback{
     width: 791px;
     height: 451px;
-    box-shadow: 0px 4px 4px 0px #00000040;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     background: #ffffff;
     border-radius: 30px;
     margin-left: 5px;
@@ -47,4 +47,49 @@
 .social-icon{
     width: 32px;
     height: 31px;
+}
+@media screen and (max-width:1200px) {
+    .feedback-item{
+        padding-top: 32px;
+        padding-bottom: 50px;
+    }
+    .course-feedback h2{
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+    .feedback{
+        width: 458.12px;
+        height: 261.2px;
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        margin-left: 3px;
+    }
+    .feedback-desc p{
+        font-size: 12px;
+        padding-top: 24px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+    .profile{
+        width: 110.04px;
+        height: 97.88px;
+    }
+    .user-profile{
+        margin-top: 7px;
+        position: relative;
+        left: -10px;
+    }
+    .user-info{
+        padding-left: 18px;
+    }
+    .user-profile h3{
+        font-size: 17px;
+        padding-top: 19px;
+        padding-bottom: 14px;
+    }
+    .social-icon{
+        width: 18.53px;
+        height: 17.95px;
+    }
 }
