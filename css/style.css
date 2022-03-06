@@ -63,9 +63,17 @@ p{
 /* Umumi H1 Tag-inin ortaq xususiyyetlerinin yazilmasi */
 h1{
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     vertical-align: top;
+    font-style: normal;
     
 
+}
+
+/* Boyuk Siriftli H1 tag-ucun ortaq style-nin yazilmasi */
+.lg-h1{
+    font-size: 55px;
+    Line-height :56px;
+    color: #000000;
 }
 
