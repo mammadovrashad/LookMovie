@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500;600;900&family=Roboto:wght@500&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -8,6 +10,7 @@
     width: 85%;
     margin: 0px auto;
 }
+/* Grid-System */
 .row{
     display: flex;
     justify-content: space-between;
@@ -49,3 +52,20 @@
 .col-12{
     width: calc(100%/12*12);
 }
+
+/* Umumi P Tag-inin ortaq xususiyyetlerinin yazilmasi */
+p{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+/* Umumi H1 Tag-inin ortaq xususiyyetlerinin yazilmasi */
+h1{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: top;
+    
+
+}
+
