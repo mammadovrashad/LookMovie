@@ -5,11 +5,9 @@
 }
 .format h1{
     height: 93px;
-    font-style: normal;
     font-size: 55px;
     Line-height :56px;
-    font-weight: 700;
-    font-family: 'Roboto Slab', serif;
+  
 }
 .format{
     width: 100%;
@@ -20,6 +18,7 @@
     font-size: 25px;
     line-height: 32px;
     font-style: normal;
+    margin-bottom: 10px;
 
 }
 .info{
@@ -30,6 +29,26 @@
     line-height: 23px;
     font-size: 18px;
 }
+.learn{
+    width: 100%;
+    height: 643px;
+}
+.learn h1{
+    width: 100%;
+    height: 93px;
+}
+learn-head{
+    width: 100%;
+    height: 76px;
+}
+li p{
+    font-size: 24px;
+    line-height: 36px;
+    vertical-align: top;
+   
+}
+
+/* Responsivliyin yazilmasi  */
 @media screen and (max-width:1200px){
     .information{
         height: 403px;
