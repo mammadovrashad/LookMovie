@@ -137,6 +137,36 @@
         height: 17.95px;
     }
     /* Feedback Section end */
+
+    /* Training-Info Section start */
+    .training-item{
+        border-radius: 0;
+        padding-top: 95px;
+        padding-bottom: 100px;
+    }
+    .training-item h2{
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+    .course-price{
+        padding-bottom: 22px;
+    }
+    .price-desc{
+        font-size: 14px;
+    }
+    .price{
+        font-size: 46px;
+    }
+    .course-info-head{
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    .course-info-desc{
+        font-size: 10px;
+        line-height: 10.14px;
+        padding-right: 44%;
+    }
+    /* Training-Info Section end */
 }
 
 @media screen and (max-width:843px){
