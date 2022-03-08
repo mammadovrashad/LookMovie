@@ -8,10 +8,10 @@
 
 ### İştirakçılar:
 
-- Rashad(https://github.com/rashadmemmedov)
-- Fariz(#)
-- Murad(https://github.com/muradorucov)
-- Shamil(#)
+- [Rashad](https://github.com/rashadmemmedov)
+- [Fariz](#)
+- [Murad](https://github.com/muradorucov)
+- [Shamil](#)
 
 ### Layihədə istifadə olunan texnologiyalar :
 
