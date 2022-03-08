@@ -91,6 +91,51 @@
 }
 /* Training-Info Section end */
 
+/* Footer start */
+.footer{
+    padding-top: 32px;
+    padding-bottom: 28px;
+    background: #000000;
+}
+.footer-logo{
+    width: 115px;
+    height: 68px;
+    margin-bottom: 25px;
+}
+.social-icons{
+    display: flex;
+}
+.social-icon{
+    width: 33px;
+    height: 33px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.contact-item{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.contact-icon{
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.contact-item p{
+    font-family: Roboto;
+    font-size: 25px;
+    line-height: 25.35px ;
+    color: #FFFFFF;
+}
+.synchronization{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    margin-top: 125px;
+}
+/* Footer end */
 
 @media screen and (max-width:1279px) and (min-width:843px){
     /* Feedback Section start */
@@ -167,6 +212,42 @@
         padding-right: 44%;
     }
     /* Training-Info Section end */
+
+    /* Footer start */
+    .footer{
+        padding-top: 25px;
+        padding-bottom: 19px;
+    }
+    .footer-logo{
+        width: 66.6px;
+        height: 39.38px;
+        margin-bottom: 15px;
+    }
+    .social-icon{
+        width: 19.11px;
+        height: 19.11px;
+        margin-right: 10px;
+    }
+    .contact-item{
+        margin-top: 14px;
+        margin-bottom: 3px;
+    }
+    .top0{
+        margin-top: 0px;
+    }
+    .contact-icon{
+        width: 15.64px;
+        height: 15.64px;
+        margin-right: 13px;
+    }
+    .contact-item p{
+        font-size: 14px;
+    }
+    .synchronization{
+        font-size: 10px;
+        margin-top: 71px;
+    }
+    /* Footer end */
 }
 
 @media screen and (max-width:843px){
@@ -255,4 +336,43 @@
         width: calc(100%/12*6) !important;
     }
     /* Training-Info Section end */
+    /* Footer start */
+    .footer{
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+    .footer-logo{
+        width: 53.59px;
+        height: 31.69px;
+        margin-bottom: 11px;
+    }
+    .social-media{
+        margin-bottom: 35px;
+    }
+    .social-icon{
+        width: 15.38px;
+        height: 15.38px;
+        margin-right: 10px;
+    }
+    .contact-item{
+        margin-top: 14px;
+        margin-bottom: -5px;
+    }
+    .top0{
+        margin-top: 0px;
+    }
+    .contact-icon{
+        width: 12.58px;
+        height: 12.58px;
+        margin-right: 14px;
+
+    }
+    .contact-item p{
+        font-size: 12px;
+    }
+    .synchronization{
+        font-size: 10px;
+        margin-top: 38px;
+    }
+    /* Footer end */
 }
