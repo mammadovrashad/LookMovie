@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500;600;900&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+/* Information section hissenin yazilmasi  */
+
 .information{
     width: 100%;
     height: 510px;
@@ -29,9 +32,14 @@
     line-height: 23px;
     font-size: 18px;
 }
+/* Information css End */
+
+/* Learn Css Start  */
+
 .learn{
     width: 100%;
-    /* height: 643px; */
+    height: 736px;
+   
 }
 .learn h1{
     width: 100%;
@@ -47,8 +55,65 @@ li p{
     vertical-align: top;
    
 }
+/* Learn Css End */
+
+
+
+/* Start Css Course Program  */
+.program-head{
+    width: 100%;
+    height: 173px;
+}
+.item{
+    width: 100%;
+    height: 328px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    filter: drop-shadow(2px 4px 6px rgb( 0, 0,0, 0.25));
+    overflow: hidden;
+}
+.logo{
+    width: 100%;
+    /* border-radius: 15px 15px 0px 0px; */
+}
+.writing{
+    width: 100%;
+    height: 168px;
+}
+.logo img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+   
+    
+}
+.make-date-text{
+    width:96%;
+    height: 39px;
+    margin: 0px auto 32px auto
+}
+.make-date-text h3{
+font-size: 30px;
+line-height: 39px;
+
+}
+.date{
+    width: 96%;
+    height: 63px;
+    margin: auto;
+}
+.date p{
+    font-size: 25px;
+    line-height: 32px;
+   
+}
+.margin-106{
+    margin-bottom: 121px;
+}
+    
 
 /* Responsivliyin yazilmasi  */
+
 @media screen and (max-width:1200px){
     .information{
         height: 403px;
@@ -69,9 +134,7 @@ li p{
         font-size: 15px;
         line-height: 19px;
     }
-    /* .learn{
-        height: 534px;
-    } */
+   
    .learn-head{
        height: 82px;
    }
@@ -105,9 +168,7 @@ li p{
         font-size: 11px;
         line-height: 14px;
     }
-    /* .learn{
-        height: 426px;
-    } */
+  
    .learn-head{
        height: 66px;
    }
@@ -146,9 +207,7 @@ li p{
     .row{
         flex-direction: column;
     }
-    /* .learn{
-        height: 311px;
-    } */
+  
    .learn-head{
        height: 53px;
    }
@@ -188,9 +247,7 @@ li p{
     .row{
         flex-direction: column;
     }
-    /* .learn{
-        height: 254px;
-    } */
+  
    .learn-head{
        height: 40px;
    }

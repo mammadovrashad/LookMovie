@@ -10,10 +10,12 @@
     width: 85%;
     margin: 0px auto;
 }
+
 /* Grid-System */
 .row{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 15px 0px;
 }
 .col-1{
@@ -52,7 +54,14 @@
 .col-12{
     width: calc(100%/12*12);
 }
+/* Flex Center */
+.flex-left{
+    justify-content: left;
+}
 
+.padding-col-3{
+    padding: 22px 18px;
+}
 /* Umumi P Tag-inin ortaq xususiyyetlerinin yazilmasi */
 p{
     font-weight: 400;
@@ -61,7 +70,7 @@ p{
     color: #000000;
 }
 /* Umumi H1 Tag-inin ortaq xususiyyetlerinin yazilmasi */
-h1{
+h1 , h2,h3{
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
     vertical-align: top;
