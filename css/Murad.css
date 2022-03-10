@@ -274,6 +274,10 @@
         padding-bottom: 5px;
         padding-left: 0px;
     }
+    .flex-justiyf-center{
+        display: flex;
+        justify-content: center;
+    }
     .profile{
         height: 84px;
     }
