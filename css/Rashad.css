@@ -40,7 +40,7 @@
     width: 100%;
     height: 736px;
    
-}
+} 
 .learn h1{
     width: 100%;
     height: 93px;
@@ -68,7 +68,7 @@ li p{
     width: 100%;
     height: 328px;
     background-color:rgb(255, 255, 255);
-    border-radius: 15px;
+    border-radius: 28px;
     filter: drop-shadow(2px 4px 6px rgb( 0, 0,0, 0.25));
     overflow: hidden;
 }
@@ -76,9 +76,8 @@ li p{
     width: 100%;
     /* border-radius: 15px 15px 0px 0px; */
 }
-.writing{
-    width: 100%;
-    height: 168px;
+.make-date{
+    padding-left: 5px;
 }
 .logo img{
     width: 100%;
@@ -90,7 +89,7 @@ li p{
 .make-date-text{
     width:96%;
     height: 39px;
-    margin: 0px auto 32px auto
+    margin: 0px auto 32px auto;
 }
 .make-date-text h3{
 font-size: 30px;
@@ -101,13 +100,14 @@ line-height: 39px;
     width: 96%;
     height: 63px;
     margin: auto;
+    padding-top: 10px;
 }
 .date p{
     font-size: 25px;
     line-height: 32px;
    
 }
-.margin-106{
+.rashad-course-program{
     margin-bottom: 121px;
 }
     
@@ -115,6 +115,8 @@ line-height: 39px;
 /* Responsivliyin yazilmasi  */
 
 @media screen and (max-width:1200px){
+   
+    /* Start Information  Section*/
     .information{
         height: 403px;
     }
@@ -134,7 +136,14 @@ line-height: 39px;
         font-size: 15px;
         line-height: 19px;
     }
-   
+   /* End Information Section*/
+
+  
+
+   /* Start Learn Section*/
+   .learn{
+       height: 574px;
+}
    .learn-head{
        height: 82px;
    }
@@ -147,8 +156,44 @@ line-height: 39px;
        font-size: 18px;
        line-height: 28px;
    }
+   /* End Learn Section*/
+
+
+   /* Start Course Program */
+   .program-head{
+    height: 141px;
+   }
+   .program-head h1{
+    height: 74px;
+    font-size: 43px;
+    line-height: 44px;
+   }
+   .make-date-text h3{
+       font-size: 23px;
+       line-height: 30px;
+   }
+   .date p{
+       font-size: 18px;
+       line-height: 25px;
+   }
+   .item{
+       height: 259px;
+   }
+   .logo img{
+       height: 126px;
+   }
+   .make-date-text{
+       height: 31px;
+       margin: 0px auto 24px auto
+   }
+   .date{
+       height: 50px;
+   }
+   /* End Course Program */
+
 }
 @media screen and (max-width:992px)  {
+    /* Start Information Section */
     .information{
         height: 296px;
     }
@@ -169,6 +214,13 @@ line-height: 39px;
         line-height: 14px;
     }
   
+    /* End Information Section */
+
+
+    /* Start Learn Section */
+    .learn{
+        height: 412px;
+    }
    .learn-head{
        height: 66px;
    }
@@ -181,9 +233,43 @@ line-height: 39px;
        font-size: 14px;
        line-height: 21px;
    }
+   /* End Learn Section */
     
+   /* Start Course Program Section */
+   .program-head{
+    height: 108px;
+   }
+   .program-head h1{
+    height: 54px;
+    font-size: 32px;
+    line-height: 32px;
+   }
+   .make-date-text h3{
+       font-size: 17px;
+       line-height: 22px;
+   }
+   .date p{
+       font-size: 14px;
+       line-height: 18px;
+   }
+   .item{
+       height: 190px;
+   }
+   .logo img{
+       height: 93px;
+   }
+   .make-date-text{
+       height: 23px;
+       margin: 0px auto 16px auto
+   }
+   .date{
+       height: 36px;
+   }
+   /* End Course Program Section */
 }
 @media screen and (max-width:767px)  {
+
+    /* Start Information Section */
     .information{
         height: 349px;
     }
@@ -207,7 +293,14 @@ line-height: 39px;
     .row{
         flex-direction: column;
     }
+
+    /* End Information Section */
   
+
+    /* Start Learn Section */
+    /* .learn{
+     height: 331px;
+    } */
    .learn-head{
        height: 53px;
    }
@@ -220,7 +313,39 @@ line-height: 39px;
        font-size: 12px;
        line-height: 18px;
    }
-    
+   /* End İnformation Section */
+
+    /* Start Course Program Section */
+       .program-head{
+        height: 75px;
+       }
+       .program-head h1{
+        height: 34px;
+        font-size: 26px;
+        line-height: 26px;
+       }
+       .make-date-text h3{
+           font-size: 12px;
+           line-height: 16px;
+       }
+       .date p{
+           font-size: 11px;
+           line-height: 11px;
+       }
+       .item{
+           height: 131px;
+       }
+       .logo img{
+           height: 60px;
+       }
+       .make-date-text{
+           height: 15px;
+           margin: 0px auto 6px auto
+       }
+       .date{
+           height: 22px;
+       }
+       /* End Course Program Section */ 
 }
 @media screen and (max-width: 586px){
     .information{
@@ -260,6 +385,52 @@ line-height: 39px;
        font-size: 10px;
        line-height: 15px;
    }
+
+   /* Start Course Program Section */
+   .program-head{
+    height: 64px;
+    width: 100%;
+   }
+   .program-head h1{
+    height: 43px;
+    font-size: 26px;
+    line-height: 26px;
+   }
+   .make-date-text h3{
+       font-size: 14px;
+       line-height: 18px;
+   }
+   .date p{
+       font-size: 12px;
+       line-height: 15px;
+   }
+   .item{
+       height: 153px;
+   }
+   .logo img{
+       height: 74px;
+   }
+   .make-date-text{
+       height: 18px;
+       margin: 0px auto 15px auto
+   }
+   .date{
+       height: 29px;
+   }
+   .course-program  .col-4{
+    width: calc(100%/12*6);
+   }
+   .course-program  .col-6{
+    width: calc(100%/12*12);
+   }
+   .aligin-center{
+       align-items: center;
+   }
+   .rashad-course-program{
+       margin-bottom: 47px;
+   }
+
+   /* End Course Program Section */ 
     
 }
     
