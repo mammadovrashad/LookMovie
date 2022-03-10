@@ -9,7 +9,7 @@
 ### İştirakçılar:
 
 - [Rashad](https://github.com/rashadmemmedov)
-- [Fariz](#)
+- [Fariz](https://github.com/aliyevfariz)
 - [Murad](https://github.com/muradorucov)
 - [Shamil](#)
 
