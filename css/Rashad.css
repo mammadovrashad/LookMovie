@@ -257,6 +257,7 @@ line-height: 39px;
    }
    .item{
        height: 259px;
+       border-radius: 17.375px;
    }
    .logo img{
        height: 126px;
@@ -333,6 +334,7 @@ line-height: 39px;
    }
    .item{
        height: 190px;
+       border-radius: 17.375px;
    }
    .logo img{
        height: 93px;
@@ -413,6 +415,7 @@ line-height: 39px;
        }
        .item{
            height: 131px;
+           border-radius: 13.97px;
        }
        .logo img{
            height: 60px;
@@ -485,6 +488,7 @@ line-height: 39px;
    }
    .item{
        height: 153px;
+       border-radius: 13.97px;
    }
    .logo img{
        height: 74px;
