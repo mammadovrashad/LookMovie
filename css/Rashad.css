@@ -503,7 +503,7 @@ line-height: 39px;
    .course-program  .col-6{
     width: calc(100%/12*12);
    }
-   .aligin-center{
+   .align-center{
        align-items: center;
    }
    .rashad-course-program{
